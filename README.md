@@ -7,3 +7,13 @@ Den MQTT Server habe ich local mittels mosquitto gehostet (broker = "tcp://local
 Dieser ist in LoesungEmpfangen und RaetselEmpfangen beliebig zu ändern.
 
 Um alle MQTT Nachrichten der Topics "Zahlenraetsel" und "Loesungen" zu sehen muss auf "Connect" geclickt werden.
+
+Das ist das erste mal, dass ich Docker benutze. Ich hoffe ich habe das richtig verstanden.
+
+Terminal starten und zu websocket navigieren. Dann:
+
+docker build -t websocket-docker:latest .
+
+docker run -p 8080:8080 websocket-docker
+
+Zu beachten ist, dass ein localer mosquitto server vorhanden sein muss über den die MQTT messages versendet werden.
