@@ -10,7 +10,7 @@ Um alle MQTT Nachrichten der Topics "Zahlenraetsel" und "Loesungen" zu sehen mus
 
 Das ist das erste mal, dass ich Docker benutze. Ich hoffe ich habe das richtig verstanden.
 
-Terminal starten und zu websocket navigieren. Dann:
+Docker und Terminal starten. Im Terminal zu "websocket" navigieren. Dann:
 
 docker build -t websocket-docker:latest .
 
